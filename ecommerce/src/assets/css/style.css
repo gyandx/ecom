@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+:focus,
+button:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 64px 0 0 0;
+}
+
+.body-layout {
+    min-width: 1080px;
+    background: #fff;
+    overflow-y: scroll;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #fff;
+    color: #222;
+}
