@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header/Header";
 import Nav from "./header/Nav";
-function Home() {
+function Main() {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Main;

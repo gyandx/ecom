@@ -1,9 +1,9 @@
-import Home from "../components/Home";
+import Main from "../components/Main";
 
 const RoutsData = [
   {
     path: "/",
-    element: <Home/>
+    element: <Main/>
   }
 ];
 
